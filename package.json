@@ -1,0 +1,24 @@
+{
+  "name": "whats-the-pr-branch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dreamcodeio/whats-the-pr-branch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dreamcodeio/whats-the-pr-branch/issues"
+  },
+  "homepage": "https://github.com/Dreamcodeio/whats-the-pr-branch#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.0",
+    "@actions/github": "^2.0.0"
+  }
+}

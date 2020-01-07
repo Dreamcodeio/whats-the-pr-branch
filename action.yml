@@ -1,0 +1,15 @@
+name: 'What's the PR branch?'
+description: 'Returns the just PR branch name removing eveything else'
+inputs:
+  prefix:  
+    description: 'Branch prefix ( comma separated if more than one)'
+    required: true
+outputs:
+  branch-name: 
+    description: 'The branch name'
+runs:
+  using: 'node12'
+  main: 'index.js'
+branding:
+  icon: 'check'  
+  color: 'blue'
