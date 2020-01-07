@@ -1,4 +1,4 @@
-name: 'What's the PR branch?'
+name: 'What is the PR branch?'
 description: 'Returns the just PR branch name removing eveything else'
 inputs:
   prefix:
